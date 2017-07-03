@@ -1,0 +1,4 @@
+Cadenhead.org	http://www.cadenhead.org	Programming
+Scripting News	http://www.scripting.com	Media
+Metafilter	http://www.metafilter.com	Community
+	

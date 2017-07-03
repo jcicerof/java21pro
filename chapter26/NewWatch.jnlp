@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for the NewWatch Applet -->
+<jnlp
+  codebase="http://www.cadenhead.org/book/java21pro/java"
+  href="NewWatch.jnlp">
+  <information>
+    <title>New Watch Applet</title>
+    <vendor>Rogers Cadenhead</vendor>
+    <homepage href="http://www.java21pro.com"/>
+    <description kind="one-line">An applet that displays
+the current time.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.2+"/>
+    <jar href="NewWatch.jar"/>
+  </resources>
+  <applet-desc
+    name="NewWatch applet"
+    main-class="NewWatch"
+    documentBase="http://www.cadenhead.org/book/java21pro"
+    width="345"
+    height="50">
+
+    <param name="background" value="#996633">
+  </applet-desc>
+</jnlp>

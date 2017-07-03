@@ -1,0 +1,9 @@
+<!ELEMENT Library (Book?)+ >
+<!ELEMENT Book (Author?, Title, PublicationDate?, Publisher?, Subject?, Review?)* >
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT PublicationDate (#PCDATA)>
+<!ATTLIST PublicationDate edition CDATA "" isbn CDATA "">
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ELEMENT Review (#PCDATA)>

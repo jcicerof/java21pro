@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Library SYSTEM "librml.dtd">
+<Library>
+   <Book>
+      <Author>Joseph Heller</Author>
+      <Title>Catch-22</Title>
+      <PublicationDate edition="Trade" isbn="0684833395">09/1996</PublicationDate>
+      <Publisher>Simon and Schuster</Publisher>
+      <Subject>Fiction</Subject>
+      <Review>heller-catch22.html</Review>
+   </Book>
+   <Book>
+      <Author>Kurt Vonnegut</Author>
+      <Title>Slaughterhouse-Five</Title>
+      <PublicationDate edition="Paperback" isbn="0440180295">12/1991</PublicationDate>
+      <Publisher>Dell</Publisher>
+      <Subject>Fiction</Subject>
+   </Book>
+</Library>

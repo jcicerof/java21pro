@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for the PageData Application -->
+<jnlp
+  codebase="http://www.cadenhead.org/book/java21pro/java"
+  href="PageData.jnlp">
+  <information>
+    <title>PageData Application</title>
+    <vendor>Rogers Cadenhead</vendor>
+    <homepage href="http://www.java21pro.com"/>
+    <icon href="pagedataicon.gif"/>
+  </information>
+  <resources>
+    <j2se version="1.3"/>
+    <jar href="PageData.jar"/>
+  </resources>
+  <application-desc main-class="PageData"/>
+</jnlp>

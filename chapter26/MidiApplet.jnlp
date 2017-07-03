@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for the PageData Application -->
+<jnlp
+  codebase="http://www.cadenhead.org/book/java21pro/java"
+  href="MidiApplet.jnlp">
+  <information>
+    <title>Midi Applet</title>
+    <vendor>Rogers Cadenhead</vendor>
+    <homepage href="http://www.java21pro.com"/>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.4"/>
+    <jar href="MidiApplet.jar"/>
+  </resources>
+  <applet-desc
+    name="Midi Applet"
+    main-class="MidiApplet"
+    documentBase="http://www.cadenhead.org/book/java21pro/java"
+    height="100"
+    width="250">
+
+    <param name="file" value="camptown.mid">
+  </applet-desc>
+</jnlp>

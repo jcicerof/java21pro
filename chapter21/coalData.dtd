@@ -1,0 +1,6 @@
+<!ELEMENT coalData (record?)+ >
+<!ELEMENT record (fips?, country?, year?, anthraciteProduction?)* >
+<!ELEMENT fips (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT anthraciteProduction (#PCDATA)>
